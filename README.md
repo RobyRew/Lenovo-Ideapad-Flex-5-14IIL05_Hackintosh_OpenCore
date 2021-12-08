@@ -6,15 +6,15 @@ Tell me your experience on discussions releases.
 <!-- shields -->
 <div>
     <!-- downloads -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh_OpenCore/releases">
-        <img src="https://img.shields.io/github/downloads/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh_OpenCore/total" alt="downloads"/>
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/releases">
+        <img src="https://img.shields.io/github/downloads/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/total" alt="downloads"/>
     </a>
     <!-- version -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh_OpenCore/releases/latest">
-        <img src="https://img.shields.io/github/release/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh_OpenCore.svg" alt="latest version"/>
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/releases/latest">
+        <img src="https://img.shields.io/github/release/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore.svg" alt="latest version"/>
     </a>
     <!-- platform -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh_OpenCore">
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore">
         <img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="platform"/>
     </a>
 </div>

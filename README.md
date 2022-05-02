@@ -2,7 +2,7 @@
 
 **This guide it's updated to OpenCore 0.7.6 but not tested yet.**
 Is not a finished product, if you want to test go for it, from my experience I think It should boot on to the recovery at least, during next days I hope to bring all functions working.
-Tell me your experience on discussions releases.
+Tell me your experience on discussions releases please.
 <!-- shields -->
 <div>
     <!-- downloads -->

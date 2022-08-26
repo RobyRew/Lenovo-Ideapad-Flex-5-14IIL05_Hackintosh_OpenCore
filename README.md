@@ -98,7 +98,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 1. Connect a >=16 GB pendrive.
 2. Open *Disk Utility* and Erase the USB with the name: *MyVolume*.
 3. Open *Terminal* and use the proper commands for your macOS installer:
-- Monterrey: `sudo /Applications/Install\ macOS\ Monterrey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
+- Monterrey: `sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 - Big Sur: `sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 - Catalina: `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`
 - Mojave: `sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume`

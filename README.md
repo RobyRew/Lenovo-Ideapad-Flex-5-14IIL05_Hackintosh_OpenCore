@@ -1,25 +1,25 @@
-# Hackintosh Guide for **Lenovo Ideapad Flex 5-14IlL05**
+# Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
 **This guide it's updated to OpenCore 0.8.3 and tested on my sister's device with macOS Monterrey.**
 
 <!-- START shields -->
 <div>
     <!-- downloads -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/releases">
-        <img src="https://img.shields.io/github/downloads/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/total" alt="downloads"/>
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IIL05_Hackintosh_OpenCore/releases">
+        <img src="https://img.shields.io/github/downloads/RobyRew/Lenovo-Ideapad-Flex-5-14IIL05_Hackintosh_OpenCore/total" alt="downloads"/>
     </a>
     <!-- version -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore/releases/latest">
-        <img src="https://img.shields.io/github/release/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore.svg" alt="latest version"/>
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IIL05_Hackintosh_OpenCore/releases/latest">
+        <img src="https://img.shields.io/github/release/RobyRew/Lenovo-Ideapad-Flex-5-14IIL05_Hackintosh_OpenCore.svg" alt="latest version"/>
     </a>
     <!-- platform -->
-    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IlL05_Hackintosh_OpenCore">
+    <a href="https://github.com/RobyRew/Lenovo-Ideapad-Flex-5-14IIL05_Hackintosh_OpenCore">
         <img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="platform"/>
     </a>
 </div>
 </br>
 <!-- END shields -->
 
-![Lenovo Ideapad Flex 5 14IlL05 running macOS Monterrey](/Docs/Images/Lenovo-Ideapad-Flex-5-14IlL05-Hackintosh-macOS.png)
+![Lenovo Ideapad Flex 5 14IIL05 running macOS Monterrey](/Docs/Images/Lenovo-Ideapad-Flex-5-14IIL05-Hackintosh-macOS.png)
 
 # Specifications
 Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_dp_D2GHPB9EMDQV4ZX28W90) for this exact model, *it cost me `849,99€` when purchased on 16/09/2020*
@@ -42,7 +42,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 # Working Status
  - ### **Fully Working**
     - Built-In Display
-    - [All USB Ports](/Docs/Images/Guide/Lenovo-Ideapad-Flex-5-14IlL05-layout.png)
+    - [All USB Ports](/Docs/Images/Guide/Lenovo-Ideapad-Flex-5-14IIL05-layout.png)
     - Jack 3.5mm, Speakers & Microphone
     - DC-IN & Battery
     - NVMe & HDD

@@ -26,10 +26,11 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 
 | Component | Name |
 |:--- |:---|
-| Motherboard:  | LNVNB161216 **U3E1** |
+| Motherboard:  | LNVNB161216 **495** |
 | CPU: | **Intel** i5-1035G1 |
 | RAM: | **Brand**  8GBGB 2666Mhz |
-| iGPU: | **Intel** G1 (Mobile) |
+| iGPU: | **Intel** GT2 32EU LM |
+| Touch Display: | **Chi Mei** NMN1406 |
 | NVMe: | **SKHynix** HFM512GDHTNI-87A0B 512GB |
 | HDD: | **HGST** HTS721010A9E630 |
 | Wifi/BT: | **Intel** Wireless-AC 9560 160MHz |
@@ -121,7 +122,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 <details>
 <summary><h3>BIOS Settings</h3></summary>
  
-- Make Sure you have [Latest BIOS v323](https://www.asus.com/supportonly/ASUS%20TUF%20GAMING%20FX504/HelpDesk_Download/)
+- Make Sure you have [Latest BIOS vECCN41WW](https://download.lenovo.com/consumer/mobiles/eccn41ww.exe)
 - After Updating the BIOS, stock configuration works, so don't worry about this part.
 ---
  

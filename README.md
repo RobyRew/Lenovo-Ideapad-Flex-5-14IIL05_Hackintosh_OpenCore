@@ -34,7 +34,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 | HDD: | **HGST** HTS721010A9E630 |
 | Wifi/BT: | **Intel** Wireless-AC 9560 160MHz |
 | Audio: | **RealTek** ALC255 |
-| Trackpad: | HID Device |
+| Trackpad: | HID I2C Trackpad |
 | Keyboard: | PS/2 Keyboard (ISO Spain)|
 ><strong>Note:</strong> Everything is STOCK
 
@@ -59,7 +59,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 - ### **Not Working**
     - dGPU *(nVidia GTX 1050Ti)*
 
-<details open>
+<details>
     <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info</h3></summary>
 
 | Name | Solution |

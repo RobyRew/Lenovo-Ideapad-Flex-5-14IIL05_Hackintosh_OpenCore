@@ -28,12 +28,12 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 |:--- |:---|
 | Motherboard:  | LNVNB161216 **495** |
 | CPU: | **Intel** i5-1035G1 |
-| RAM: | **Brand**  8GBGB 2666Mhz |
+| RAM: | **Micron** 4ATF51264HZ-3G2J1 2x4GB 3200Mhz |
 | iGPU: | **Intel** GT2 32EU LM |
 | Touch Display: | **Chi Mei** NMN1406 |
 | NVMe: | **SKHynix** HFM512GDHTNI-87A0B 512GB |
 | Wifi/BT: | **Intel** Wireless-AC 9560 160MHz |
-| Audio: | **RealTek** ALC255 |
+| Audio: | **RealTek** ALC257 |
 | Trackpad: | HID I2C Trackpad |
 | Keyboard: | PS/2 Keyboard (ISO Spain)|
 ><strong>Note:</strong> Everything is STOCK

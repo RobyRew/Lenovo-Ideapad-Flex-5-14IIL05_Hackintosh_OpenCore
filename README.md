@@ -32,7 +32,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 | iGPU: | **Intel** GT2 32EU LM |
 | Touch Display: | **Chi Mei** NMN1406 |
 | NVMe: | **SKHynix** HFM512GDHTNI-87A0B 512GB |
-| Wifi/BT: | **Intel** Wireless-AC 9560 160MHz |
+| Wifi/BT: | **Intel** Wireless-AC 9560 160MHz (Type CNVi) |
 | Audio: | **RealTek** ALC257 |
 | Trackpad: | HID I2C Trackpad |
 | Keyboard: | PS/2 Keyboard (ISO Spain)|

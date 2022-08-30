@@ -36,6 +36,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 | Audio: | **RealTek** ALC257 |
 | Trackpad: | HID I2C Trackpad |
 | Keyboard: | PS/2 Keyboard (ISO Spain)|
+| Card Reader: | **RealTek** RTS522A|
 ><strong>Note:</strong> Everything is STOCK
 
 # Working Status

@@ -1,5 +1,5 @@
 # Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
-**This guide it's updated to OpenCore 0.8.3 and tested on my sister's device with macOS Monterrey.**
+**This guide it's updated to OpenCore 0.8.3 and tested on my sister's device with macOS Big Sur Monterrey and newer still don't work idkw .**
 
 <!-- START shields -->
 <div>

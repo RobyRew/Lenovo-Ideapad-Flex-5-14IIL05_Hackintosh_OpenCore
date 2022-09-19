@@ -1,5 +1,5 @@
 # Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
-**This guide it's updated to OpenCore 0.8.3 and tested on my sister's device with macOS Big Sur Monterrey and newer still don't work idkw .**
+**This guide it's updated to OpenCore 0.7.8 and tested on my sister's device with macOS Big Sur, but nothing newer still don't work idkw why.**
 
 <!-- START shields -->
 <div>
@@ -41,25 +41,25 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 
 # Working Status
  - ### **Fully Working**
-    - Built-In Display
     - [All USB Ports](/Docs/Images/Guide/Lenovo-Ideapad-Flex-5-14IIL05-layout.png)
     - Jack 3.5mm, Speakers & Microphone
     - DC-IN & Battery
-    - NVMe & HDD
+    - NVMe
     - Camera
-    - Ethernet
     - Keyboard
-    - Trackpad
 
  - ### **Partially Working**
-    - WiFi
+    - Built-In Display
     - Bluetooth
     - HDMI Port
-    - Continuity Features (Apple Ecosystem Fancy Things)
 
 - ### **Not Working**
-    - dGPU *(nVidia GTX 1050Ti)*
-
+    - WiFi
+    - Trackpad
+    - Touchscreen
+    - Fingerprint
+    - Continuity Features (Apple Ecosystem Fancy Things)
+    
 <details>
     <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info</h3></summary>
 
@@ -462,5 +462,6 @@ https://browser.geekbench.com/v5/cpu/5707123
 ---
 
 </details>
+
 <!-- CREDITS END -->
 If this guide has been useful for you, don't forget to give me a star ⭐️❤️

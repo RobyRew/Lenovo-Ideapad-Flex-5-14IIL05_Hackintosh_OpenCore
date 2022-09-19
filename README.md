@@ -1,5 +1,5 @@
 # Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
-**This guide it's updated to OpenCore 0.7.8 and tested on my sister's device with macOS Big Sur, but nothing newer still don't work idkw why.**
+**This guide it's updated to OpenCore 0.7.8 and tested on my sister's device with macOS Big Sur, but nothing newer still don't work idk why.**
 
 <!-- START shields -->
 <div>
@@ -448,12 +448,14 @@ https://browser.geekbench.com/v5/cpu/5707123
 <!-- BENCHMARK END -->
 
 <!-- CREDITS START -->
-<details>
+<details open>
 <summary><h3>Credits</h3></summary>
 
 [Apple](https://apple.com) (macOS)
 
 [OpenCore Team](https://github.com/acidanthera/OpenCorePkg) (Bootloader)
+
+[@andrehessels](https://github.com/andrehessels/flex5-hackintosh) (Base EFI for this build)
 
 [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#starting-point) (Guide)
 

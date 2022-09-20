@@ -42,23 +42,25 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 # Working Status
  - ### **Fully Working**
     - [All USB Ports](/Docs/Images/Guide/Lenovo-Ideapad-Flex-5-14IIL05-layout.png)
-    - Jack 3.5mm, Speakers & Microphone
+    - Built-In Display
     - DC-IN & Battery
     - NVMe
     - Camera
     - Keyboard
+    - WiFi
+    - Bluetooth
 
  - ### **Partially Working**
-    - Built-In Display
-    - Bluetooth
-    - HDMI Port
+    - Continuity Features (Apple Ecosystem Fancy Things)
+    - SignIn with Apple ID gives and error on Setup but doing that you can SignIn after instalation on System Preferences.
+    - Jack 3.5mm, Speakers & Microphone
 
 - ### **Not Working**
-    - WiFi
     - Trackpad
     - Touchscreen
     - Fingerprint
-    - Continuity Features (Apple Ecosystem Fancy Things)
+    - HDMI Port
+
     
 <details>
     <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info</h3></summary>

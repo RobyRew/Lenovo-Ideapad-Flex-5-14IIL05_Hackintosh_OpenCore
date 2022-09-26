@@ -457,7 +457,7 @@ https://browser.geekbench.com/v5/cpu/5707123
 
 [OpenCore Team](https://github.com/acidanthera/OpenCorePkg) (Bootloader)
 
-[@andrehessels](https://github.com/andrehessels/flex5-hackintosh) (Base EFI for this build)
+[@andrehessels](https://github.com/andrehessels/flex5-hackintosh) (a light of some parameters on booter that needed to be disabled for be able to boot)
 
 [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#starting-point) (Guide)
 

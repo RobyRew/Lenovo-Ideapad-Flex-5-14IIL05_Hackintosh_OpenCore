@@ -63,7 +63,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 
     
 <details>
-    <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info</h3></summary>
+    <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info (Section Not Finalized)</h3></summary>
 
 | Name | Solution |
 |:--- |:--- |
@@ -91,7 +91,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 # GUIDE OF INSTALLATION
 <!-- BOOTABLE START -->
 <details>
-<summary><h3>Making the Bootable USB</h3></summary>
+<summary><h3>Making the Bootable USB (Section Not Finalized)</h3></summary>
     <h3>From macOS:</h3>
 <p><a href="https://support.apple.com/en-us/HT201372"</a>Link to Apple's Guide</p>
 
@@ -122,7 +122,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 <!-- BOOTABLE END -->
 <!-- BIOS START -->
 <details>
-<summary><h3>BIOS Settings</h3></summary>
+<summary><h3>BIOS Settings (Section Not Finalized)</h3></summary>
  
 - Make Sure you have [Latest BIOS vECCN41WW](https://download.lenovo.com/consumer/mobiles/eccn41ww.exe)
 - After Updating the BIOS, stock configuration works, so don't worry about this part.
@@ -133,7 +133,7 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 
 <!-- OpenCore START -->
 <details>
-<summary><h3>confi.plist Explanation</h3></summary>
+<summary><h3>confi.plist Explanation (Section Not Finalized)</h3></summary>
   
 >Here (Under these Dropdown Menus) are written only **Enabled** Parameters, Leave everything default on a supposedly new `sample.conf`, I have explained what does and why every parameter, I hope you understand something.
 
@@ -396,7 +396,7 @@ UpdateSMBIOSMode `String` `Create`
 <!-- OpenCore END -->
 <!-- POST-INSTALL START-->
 <details>
-  <summary><h3>Post Installation</h3></summary>
+  <summary><h3>Post Installation (Section Not Finalized)</h3></summary>
  
 Open Terminal.app and run those commands:
 ~~~
@@ -425,10 +425,10 @@ sudo pmset tcpkeepalive 0
 
 <!-- BENCHMARK START -->
 <details>
-  <summary><h3>BenchMarks</h3></summary>
+  <summary><h3>BenchMarks (Section Not Finalized)</h3></summary>
 
 <details open>
-<summary>Cinebench R23</summary>
+<summary>Cinebench R23 (Section Not Finalized)</summary>
 
 ![Cinebench R23](/Docs/Images/Benchmarks/Cinebench_R23.png)
 

@@ -1,5 +1,7 @@
 # Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
-**This guide it's updated to OpenCore 0.8.4 and tested on my sister's device with macOS Big Sur, Monterrey and Ventura B7.**
+**This guide it's updated to OpenCore 0.8.4 and tested on my sister's device with macOS Big Sur, Monterrey and Ventura**
+
+*Archived because my sister didn't wanted because touch screen isn't working, this is a Workings EFI that if you want you could mantain your self, but for my part is Over, sorry.*
 
 <!-- START shields -->
 <div>
@@ -62,36 +64,35 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
     - HDMI Port
 
     
-<details>
-    <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info (Section Not Finalized)</h3></summary>
+<details open>
+    <summary><h3>&nbsp;&nbsp;🔍&nbsp;&nbsp;In-depth Info</h3></summary>
 
 | Name | Solution |
 |:--- |:--- |
-| Built-In Display  | Works thanks to `SSDT-PNLF-CFL.aml` *(Backlight Fix)* and `WhateverGreen.kext` *(iGPU Fixes)*. |
+| Built-In Display  | Works thanks to `WhateverGreen.kext` *(iGPU Fixes)* and all DeviceProperties for the 10th Gen iGPU. |
 | All USB Ports | Thanks to `USBMap.aml` *(Ports mapped for macOS)* and `SSDT-EC-USBX.aml`. |
-| Jack 3.5mm, Speakers & Microphone | Thanks to `AppleALC.kext` *(Audio Driver)* and layout setted to "30" (Dec) or "1E000000" (Hex). |
+| Jack 3.5mm, Speakers & Microphone | Thanks to `AppleALC.kext` *(Audio Driver)* however you need to search another layout because microphone is not working. |
 | DC-IN & Battery| `VirtualSMC.kext` with `SMCBatteryManager.kext` allows management off charging and Battery Info. |
-| NVMe & HDD | It used to be something tricky but having SATA on AHCI Mode on *BIOS/UEFI* and latest firmware for the NVMe is enough. |
+| NVMe | It used to be something tricky but having SATA on AHCI Mode on *BIOS/UEFI* and maybe `NVMeFix.kext` is enough. |
 | Camera | Is connected via Internal USB and it works. |
-| Ethernet | Thanks to `RealtekRTL8111.kext` (Ethernet Driver). |
 | Keyboard | Thanks to `VoodooPS2.kext` (Driver for PS2 devices). |
-| Trackpad | Thanks to `SSDT-XOSI.aml`(Make some Windows Features Avaible for macOS too) and with `VoodooI2C.kext` in combination with `VoodooI2CHID.kext`(Driver for I2C and HID devices like my trackpad). |
-| PowerOff, Reboot & Sleep | Working thanks to having correct configs for CPU, iGPU, disabled dGPU, mapped USB Ports and executed these commands after macOS installation: `sudo pmset autopoweroff 0`, `sudo pmset powernap 0`, `sudo pmset standby 0`, `sudo pmset proximitywake 0`, `sudo pmset tcpkeepalive 0`.|
+| Trackpad | Not working at all even with custom SSDT-GPI0.aml or SSDT-XOSI.aml with config.plist patch. Tried all VoodooI2C combinations but none worked. Good luck with this. |
+| TouchScreen | Not working at all even with custom SSDT-GPI0.aml or SSDT-XOSI.aml with config.plist patch. Tried all VoodooI2C combinations but none worked. Good luck with this.|
+| PowerOff, Reboot & Sleep | Currently sleep not working. |
 | | |
 | WiFi | Thanks to [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) (Driver for Intel WiFi Card) and loading from system the kext: `IO80211Family.kext`. |
 | Bluetooth | Thanks to [IntelBluetoothFirmware.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) and [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM/releases). |
-| HDMI Port | Thanks to DeviceProperties Patch from [MegaStood Guide](https://github.com/MegaStood/Hackintosh-FX504GE-ES72#hdmi). But Audio over HDMI is totally broken and **Hi-Res Displays** can cause visual bugs or unstable connections. |
+| HDMI Port |  |
 | Continuity Features | With the exception of **"AirDrop"** And **"Apple Watch AutoLogin"** all other Features work thanks to [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases),[IntelBluetoothFirmware.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases),[FeatureUnlock.kext](https://github.com/acidanthera/FeatureUnlock/releases); Sidecar, AirPlay to Mac, NightShift and Universal Control are working [(More Info)](https://github.com/acidanthera/FeatureUnlock#featureunlock). |
 | | |
-| dGPU | This laptop use Optimus and dGPU is not usable on macOS and Mojave dropped support for [nVidia Web Drivers](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-nov-13-2020/) (Not even try this...). |
-</details>
+| Fingerprint | Never would. |
 
 ---
 
 # GUIDE OF INSTALLATION
 <!-- BOOTABLE START -->
 <details>
-<summary><h3>Making the Bootable USB (Section Not Finalized)</h3></summary>
+<summary><h3>Making the Bootable USB</h3></summary>
     <h3>From macOS:</h3>
 <p><a href="https://support.apple.com/en-us/HT201372"</a>Link to Apple's Guide</p>
 
@@ -122,10 +123,15 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
 <!-- BOOTABLE END -->
 <!-- BIOS START -->
 <details>
-<summary><h3>BIOS Settings (Section Not Finalized)</h3></summary>
+<summary><h3>BIOS Settings</h3></summary>
  
 - Make Sure you have [Latest BIOS vECCN41WW](https://download.lenovo.com/consumer/mobiles/eccn41ww.exe)
-- After Updating the BIOS, stock configuration works, so don't worry about this part.
+- After Updating the BIOS, you need to make sure these setting are setted like here:
+
+Drive/Storage Mode: **ACHI**
+
+Secure Boot: **Disabled**
+
 ---
  
 </details>
@@ -137,9 +143,12 @@ Here's the [Amazon Link](https://www.amazon.es/dp/B08D9H3LX5/ref=cm_sw_em_r_mt_d
   
 >Here (Under these Dropdown Menus) are written only **Enabled** Parameters, Leave everything default on a supposedly new `sample.conf`, I have explained what does and why every parameter, I hope you understand something.
 
+# ATENTION THIS IS A TEMPLATE AND IS NOT WHAT PUBLISHED EFI HAS!!
+NEED UPDATE
+
 
 <!-- ACPI START -->
-<details open>
+<details>
 <summary>ACPI</summary>
 
 >**ACPI** are related mainly to modifying or patching the device firmware (DSDT).
@@ -396,7 +405,7 @@ UpdateSMBIOSMode `String` `Create`
 <!-- OpenCore END -->
 <!-- POST-INSTALL START-->
 <details>
-  <summary><h3>Post Installation (Section Not Finalized)</h3></summary>
+  <summary><h3>Post Installation</h3></summary>
  
 Open Terminal.app and run those commands:
 ~~~
@@ -439,7 +448,6 @@ sudo pmset tcpkeepalive 0
 
 ![GeekBench 5_CPU Score](/Docs/Images/Benchmarks/GeekBench5_CPU.png)
 ![GeekBench 5_GPU Score](/Docs/Images/Benchmarks/GeekBench5_GPU.png)
-https://browser.geekbench.com/v5/cpu/5707123
 
 ---
 
@@ -457,11 +465,9 @@ https://browser.geekbench.com/v5/cpu/5707123
 
 [OpenCore Team](https://github.com/acidanthera/OpenCorePkg) (Bootloader)
 
-[@andrehessels](https://github.com/andrehessels/flex5-hackintosh) (a light of some parameters on booter that needed to be disabled for be able to boot)
+[@andrehessels](https://github.com/andrehessels/flex5-hackintosh) (a light of some parameters on Booter that needed to be disabled for be able to boot)
 
-[Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#starting-point) (Guide)
-
-[Olarilla](https://www.olarila.com/topic/9918-olarila-hackintosh-hackbook-lenovo-ideapad-s145-10th-gen-catalina-big-sur-monterey-full-dsdt-patches-clover-and-opencore/?tab=comments#comment-118083) (Some ideas for my build)
+[Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#starting-point) (Guide for config.plist)
 
 ---
 

@@ -1,8 +1,6 @@
 # Hackintosh Guide for **Lenovo Ideapad Flex 5-14IIL05**
 **This guide it's updated to OpenCore 0.8.4 and tested on my sister's device with macOS Big Sur, Monterrey and Ventura**
 
-*Archived because my sister didn't wanted because touch screen isn't working, this is a Workings EFI that if you want you could mantain your self, but for my part is Over, sorry.*
-
 <!-- START shields -->
 <div>
     <!-- downloads -->
